@@ -1,0 +1,49 @@
+.wrap {
+  max-width: 300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: block;
+  position: relative;
+  width: 30%;
+}
+
+.profile img {
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.profile:after {
+  content: '';
+  display: block;
+  width: 24%;
+  height: 24%;
+  background: #283866;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.profile:after {
+  background: #FFF;
+  bottom: 7%;
+  right: 15%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 6px;
+  right: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  z-index: 2;
+  color: rgb(238,143,101);
+}

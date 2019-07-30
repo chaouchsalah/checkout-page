@@ -1,0 +1,7 @@
+.menu-icon {
+    color: rgb(186,191,206)	
+}
+.is-active {
+    color: rgb(238,143,101);
+    background-color: #fff;
+}
